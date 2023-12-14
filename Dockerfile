@@ -1,11 +1,11 @@
-# Establece la imagen base
+#Establecemos la imagen base
 FROM adoptopenjdk:17-jdk-hotspot
 
-# Establece el directorio de trabajo dentro del contenedor
+#Establecemos el directorio de trabajo
 WORKDIR /app
 
-# Copia el archivo JAR de la aplicación a la imagen
-COPY target/my-application.jar app.jar
+# Copia el archivo JAR de la aplicacion a la imagen
+COPY target/cicd-0.0.1.jar.jar  app.jar
 
 # Expone el puerto en el que se ejecuta la aplicación
 EXPOSE 8080
