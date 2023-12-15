@@ -1,5 +1,5 @@
 #Establecemos la imagen base
-FROM adoptopenjdk:17-jdk-hotspot
+FROM arnfi1150/17-jdk-alpine
 
 #Establecemos el directorio de trabajo
 WORKDIR /app
