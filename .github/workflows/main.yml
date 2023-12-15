@@ -48,4 +48,4 @@ jobs:
                   context: .
                   file: Dockerfile
                   push: true
-                  tags: ${{secrets.DOCKER_HUB_ACCESS_USERNAME}}/cicd_example:$(date-'%Y%m%d-%H%M%S')
+                  tags: ${{secrets.DOCKER_HUB_ACCESS_USERNAME}}/cicd_example
